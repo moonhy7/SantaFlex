@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/icon.png" rel="icon">
-  <link href="assets/img/icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -34,12 +34,27 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <script src="../UI_project/assets/js/jquery-3.6.0.min.js"></script>
+  <script>
+   $(function(){
+     var $pt1 = $(".col_pt_first");
+     var $pt2 = $(".col_pt_second");
+   }) ;
+      function drop1(){
+        $("#select").removeClass("show");
+        console.log("321")
+      }
+      function drop2(){
+        $("#self").removeClass("show");
+        console.log("123")
+      }
+  </script>
 </head>
 
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-flex align-items-center fixed-top">
+  <!-- <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-center justify-content-md-between">
 
       <div class="contact-info d-flex align-items-center">
@@ -49,12 +64,12 @@
 
       <div class="languages d-none d-md-flex align-items-center">
         <ul>
-          <li><a href="#">En</a></li>
-          <li>Ko</li>
+          <li>En</li>
+          <li><a href="#">De</a></li>
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-cente" >
@@ -101,10 +116,10 @@
               </div>
               
               <p style="margin-left: 10%;">
-                <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#self" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <a class="btn btn-outline-danger col_pt_first" onclick="drop1();" data-bs-toggle="collapse" href="#self" role="button" aria-expanded="false" aria-controls="collapseExample">
                     금액 직접 작성하기
                 </a>
-                <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#select" aria-expanded="false" aria-controls="collapseExample" style="margin-left: 10px;">
+                <button class="btn btn-outline-danger col_pt_second" onclick="drop2()" type="button" data-bs-toggle="collapse" data-bs-target="#select" aria-expanded="false" aria-controls="collapseExample" style="margin-left: 10px;">
                     금액 결정하기
                 </button>
               </p>
