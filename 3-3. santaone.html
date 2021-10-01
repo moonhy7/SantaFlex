@@ -34,6 +34,21 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <script src="../UI_project/assets/js/jquery-3.6.0.min.js"></script>
+  <script>
+   $(function(){
+     var $pt1 = $(".col_pt_first");
+     var $pt2 = $(".col_pt_second");
+   }) ;
+      function drop1(){
+        $("#collapseExample2").removeClass("show");
+        console.log("321")
+      }
+      function drop2(){
+        $("#collapseExample").removeClass("show");
+        console.log("123")
+      }
+  </script>
 </head>
 
 <body>
@@ -100,14 +115,16 @@
       </div>
       
       <p style="margin-left: 10%;">
-        <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <a class="btn btn-outline-danger col_pt_first" data-bs-toggle="collapse" href="#collapseExample" 
+        role="button" aria-expanded="false" aria-controls="collapseExample" onclick="drop1();">
           카드결제
         </a>
-        <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+        <button class="btn btn-outline-danger col_pt_second" type="button" 
+        onclick="drop2();" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
          계좌이체
         </button>
       </p>
-      <div class="collapse" id="collapseExample" style="margin-left: 10%;">
+      <div class="collapse col_1" id="collapseExample" style="margin-left: 10%;" >
         <div class="card card-body">
              <!-- 카드결제 선택시...은행선택 -->
              <div class="dropdown" style="margin-bottom: 20px;">
@@ -139,7 +156,7 @@
         </div>
       </div>
 
-      <div class="collapse" id="collapseExample2" style="margin-left: 10%;" onclick="">
+      <div class="collapse col_2" id="collapseExample2" style="margin-left: 10%;" onclick="drop2()">
         <div class="card card-body">
             <!-- 계좌이체 선택시...계좌번호와 이름 , 은행 입력창 -->
             <form action="">
