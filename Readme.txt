@@ -3,7 +3,7 @@
 <h3 style = color : red> SANTA FLEX - 이벤트를 주최하는 사람이 선물을 직접 고를 수 있는 사이트 제작 </h3>
 
 
-![슬라이드1](https://user-images.githubusercontent.com/78725674/138413534-c1f81b7a-4016-4d90-bfa3-96c8977ce927.PNG)
+<img src="https://user-images.githubusercontent.com/78725674/138413534-c1f81b7a-4016-4d90-bfa3-96c8977ce927.PNG" width="500">
 
 
 
