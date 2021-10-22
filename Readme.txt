@@ -3,16 +3,8 @@
 <h3 style = color : red> SANTA FLEX - 이벤트를 주최하는 사람이 선물을 직접 고를 수 있는 사이트 제작 </h3>
 
 
-![슬라이드1](https://user-images.githubusercontent.com/78725674/138413139-8db672e8-cc3b-4f66-8775-cb2c97cc04dd.PNG)
-![슬라이드2](https://user-images.githubusercontent.com/78725674/138413142-ba9478db-1784-438e-8522-a3d8e8a22430.PNG)
-![슬라이드3](https://user-images.githubusercontent.com/78725674/138413143-06a8d956-2b0a-40b1-a102-e02231c88895.PNG)
-![슬라이드4](https://user-images.githubusercontent.com/78725674/138413145-9527f994-a156-463b-b2fb-1ffdec969b11.PNG)
-![슬라이드5](https://user-images.githubusercontent.com/78725674/138413149-46de8caf-5507-44af-99fd-31a397f7f888.PNG)
-![슬라이드6](https://user-images.githubusercontent.com/78725674/138413153-3aabd59e-1290-498d-b855-c1d91eeb27f8.PNG)
-![슬라이드7](https://user-images.githubusercontent.com/78725674/138413159-a0615321-f448-4401-90ff-6636449cdff1.PNG)
-![슬라이드8](https://user-images.githubusercontent.com/78725674/138413161-4f725ab1-f8c7-4074-a0bb-edb4fdab169c.PNG)
-![슬라이드9](https://user-images.githubusercontent.com/78725674/138413168-7bfe1698-ba8d-40a4-97f5-49b5d64be6c0.PNG)
-![슬라이드10](https://user-images.githubusercontent.com/78725674/138413170-df1620f1-d3f8-4292-9603-ecc44a89e0e6.PNG)
+![슬라이드1](https://user-images.githubusercontent.com/78725674/138413534-c1f81b7a-4016-4d90-bfa3-96c8977ce927.PNG)
+
 
 
 <일정>
