@@ -14,6 +14,7 @@
 ![슬라이드9](https://user-images.githubusercontent.com/78725674/138414143-562d38dd-148c-408b-9b55-e82648e07366.PNG)
 ![슬라이드10](https://user-images.githubusercontent.com/78725674/138414144-5dec07fc-3095-48bc-9a31-b67b4aed7dc1.PNG)
 
+<!--
 <일정>
 - 9.6.월 : 요구사항 명세서 작성
 - 9.7.화 : 유스케이스 모델링, UI설계
@@ -58,3 +59,4 @@
  1. 카카오 오븐에서 사진 내려받기 (카카오오븐-페이지-페이지내려받기-png이미지)
  2. 깃허브에 파일 올리기 (clone -> add -> commit -> push 순서)
 
+-->
